@@ -1,9 +1,6 @@
 package com.docker;
 
 import org.testng.annotations.Test;
-import org.testng.annotations.Test;
-import org.testng.annotations.Test;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 import static org.testng.Assert.assertEquals;
@@ -35,7 +32,7 @@ public class ChromeTest {
 		DesiredCapabilities dc = new DesiredCapabilities();
 		dc.setBrowserName("chrome");
 		
-		URL url = new URL("http://192.168.0.244:4444");
+		URL url = new URL("http://192.168.0.242:4445");
 		//http://localhost:4444/wd/hub
 		//192.168.0.243
 		RemoteWebDriver remotedriver = new RemoteWebDriver(url,dc);
@@ -43,7 +40,7 @@ public class ChromeTest {
 		remotedriver.get("https://www.salesforce.com/");
 		String title = remotedriver.getTitle();
 		System.out.println("Chrome Title:"+title);
-		remotedriver.quit();
+		remotedriver.close();
 		//System.out.println("Chrome Title:");
 		//assertEquals(true,true);
 	}

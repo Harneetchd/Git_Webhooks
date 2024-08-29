@@ -1,5 +1,7 @@
 package com.training.test;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -75,7 +77,7 @@ public class CalculatorSelenium
 	}
 	public static void explicitwait(int time,WebElement element)
 	{
-		WebDriverWait wait = new WebDriverWait(driver,time);
+		WebDriverWait wait = new WebDriverWait(driver,Duration.ofMillis(time));
 		wait.until(ExpectedConditions.visibilityOf(element));
 	}
 	

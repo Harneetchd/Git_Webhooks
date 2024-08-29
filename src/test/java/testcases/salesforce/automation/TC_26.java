@@ -1,5 +1,6 @@
 package testcases.salesforce.automation;
 
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -113,7 +114,7 @@ public class TC_26
 
 	public static void explicitwait(int time,WebElement element)
 	{
-		WebDriverWait wait= new WebDriverWait(driver,time);
+		WebDriverWait wait = new WebDriverWait(driver,Duration.ofMillis(time));
 		wait.until(ExpectedConditions.visibilityOf(element));
 	}
 	

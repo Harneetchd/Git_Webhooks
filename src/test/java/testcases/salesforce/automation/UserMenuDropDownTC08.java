@@ -1,5 +1,7 @@
 package testcases.salesforce.automation;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -59,7 +61,7 @@ public class UserMenuDropDownTC08
 
 	public static void explicitwait(int time,WebElement element)
 	{
-		WebDriverWait wait= new WebDriverWait(driver,time);
+		WebDriverWait wait= new WebDriverWait(driver,Duration.ofMillis(time));
 		wait.until(ExpectedConditions.visibilityOf(element));
 	}
 }

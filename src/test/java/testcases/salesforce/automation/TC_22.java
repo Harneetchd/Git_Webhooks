@@ -1,6 +1,7 @@
 package testcases.salesforce.automation;
 
 
+import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -135,7 +136,7 @@ public class TC_22
 	}
 	public static void explicitwait(int time,WebElement element)
 	{
-		WebDriverWait wait= new WebDriverWait(driver,time);
+		WebDriverWait wait = new WebDriverWait(driver,Duration.ofMillis(time));
 		wait.until(ExpectedConditions.visibilityOf(element));
 		
 	}

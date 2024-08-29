@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.docker.FirefoxTest">
+      <class name="com.docker.MicrosoftEdgeTest">
         <methods>
-          <include name="test2"/>
+          <include name="test3"/>
         </methods>
-      </class> <!-- com.docker.FirefoxTest -->
+      </class> <!-- com.docker.MicrosoftEdgeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

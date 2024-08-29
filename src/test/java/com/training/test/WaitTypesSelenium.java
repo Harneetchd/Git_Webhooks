@@ -1,4 +1,5 @@
 package com.training.test;
+import java.time.Duration;
 /*
  * Three types of wait: Implicit(at driver level), Explicit(Element level), Fluent(Element Level, with polling)
  * Please comment out METHOD 2 while performing METHOD 1
@@ -57,14 +58,14 @@ public class WaitTypesSelenium
 	}
 	public static void waitforvisibility(int time,WebElement element) 
 	{
-		WebDriverWait wait = new WebDriverWait(driver,time);//pass the parameters driver and time 
+		WebDriverWait wait = new WebDriverWait(driver,Duration.ofMillis(time));//pass the parameters driver and time 
 		wait.until(ExpectedConditions.visibilityOf(element));//METHOD 2
 	}
 	public static void fluentwait(WebElement element) 
 	{
 		FluentWait<WebDriver> flwait= new FluentWait<WebDriver>(driver);//METHOD 3 FLUENT WAIT
-		flwait.withTimeout(10, TimeUnit.SECONDS);
-		flwait.pollingEvery(200, TimeUnit.MILLISECONDS);
+		flwait.withTimeout(Duration.ofSeconds(10));
+		flwait.pollingEvery(Duration.ofSeconds(200));
 		flwait.until(ExpectedConditions.visibilityOf(element));
 		
 	}

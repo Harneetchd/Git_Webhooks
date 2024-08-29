@@ -1,5 +1,7 @@
 package com.training.test;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -46,7 +48,7 @@ public class DragAndDropSelenium
 	public static void explicitwait(int time,WebElement element)
 	{
 		//incase you need to add interval time 
-		WebDriverWait explicitwait= new WebDriverWait(driver,time);
+		WebDriverWait explicitwait= new WebDriverWait(driver,Duration.ofMillis(time));
 		explicitwait.until(ExpectedConditions.visibilityOf(element));
 	}
 }

@@ -20,7 +20,8 @@ public class JavascriptSendkeys
 	}
 	public static void launch()
 	{
-		WebDriverManager.chromedriver().setup();
+		System.setProperty("webdriver.chrome.driver","/Users/harneetkaur/eclipse-workspace/TestNGFramework/mydriver/chromedriver");
+		//WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.get("https://www.google.com/");
 	}

@@ -62,7 +62,7 @@ public class DateTimePicker
 	
 	public static void explicitWait(int time, WebElement ele)
 	{
-		WebDriverWait wait = new WebDriverWait(driver,time);
+		WebDriverWait wait = new WebDriverWait(driver,Duration.ofMillis(time));
 		wait.until(ExpectedConditions.visibilityOf(ele));
 	}
 	

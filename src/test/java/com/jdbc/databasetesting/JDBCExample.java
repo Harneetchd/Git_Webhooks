@@ -47,7 +47,7 @@ public class JDBCExample
 		Statement stmt = con.createStatement();
 		String selectStmt = "select * from Employee"; 
 		
-		//Step 3  incase there is Select command:which is biDirectional and will return the result. we need another Class:ResultSet
+		//Step 3  In-case there is Select command:which is biDirectional and will return the result. we need another Interface:ResultSet
 		 ResultSet result =stmt.executeQuery(selectStmt); 
 		 
 		 

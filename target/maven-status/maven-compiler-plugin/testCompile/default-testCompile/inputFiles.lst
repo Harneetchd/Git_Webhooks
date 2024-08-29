@@ -1,5 +1,6 @@
 /Users/harneetkaur/eclipse-workspace/maventraining/src/test/java/testcases/salesforce/automation/TC_25.java
 /Users/harneetkaur/eclipse-workspace/maventraining/src/test/java/testcases/salesforce/automation/CreateAccountTC11.java
+/Users/harneetkaur/eclipse-workspace/maventraining/src/test/java/com/training/test/JavascriptSendkeys.java
 /Users/harneetkaur/eclipse-workspace/maventraining/src/test/java/testcases/salesforce/automation/TC_17.java
 /Users/harneetkaur/eclipse-workspace/maventraining/src/test/java/com/training/test/SeleniumChromeLaunch.java
 /Users/harneetkaur/eclipse-workspace/maventraining/src/test/java/com/training/test/DragAndDropSelenium.java
@@ -8,6 +9,7 @@
 /Users/harneetkaur/eclipse-workspace/maventraining/src/test/java/testcases/salesforce/automation/TC_02.java
 /Users/harneetkaur/eclipse-workspace/maventraining/src/test/java/testcases/salesforce/automation/UserMenuDropDownTC05.java
 /Users/harneetkaur/eclipse-workspace/maventraining/src/test/java/com/training/test/DoubleClick.java
+/Users/harneetkaur/eclipse-workspace/maventraining/src/test/java/com/training/test/DateTimePicker.java
 /Users/harneetkaur/eclipse-workspace/maventraining/src/test/java/com/training/test/AlertPopupsInTab.java
 /Users/harneetkaur/eclipse-workspace/maventraining/src/test/java/com/training/test/WaitTypesSelenium.java
 /Users/harneetkaur/eclipse-workspace/maventraining/src/test/java/testcases/salesforce/automation/SFDCloginTestCase4B.java
@@ -37,9 +39,11 @@
 /Users/harneetkaur/eclipse-workspace/maventraining/src/test/java/com/docker/ChromeTest.java
 /Users/harneetkaur/eclipse-workspace/maventraining/src/test/java/com/docker/Setup_DockerGrid.java
 /Users/harneetkaur/eclipse-workspace/maventraining/src/test/java/testcases/salesforce/automation/TC_31.java
+/Users/harneetkaur/eclipse-workspace/maventraining/src/test/java/com/training/test/DatePicker.java
 /Users/harneetkaur/eclipse-workspace/maventraining/src/test/java/testcases/salesforce/automation/UserMenuDropDownTC08.java
 /Users/harneetkaur/eclipse-workspace/maventraining/src/test/java/testcases/salesforce/automation/TC_19.java
 /Users/harneetkaur/eclipse-workspace/maventraining/src/test/java/testcases/salesforce/automation/TC15OpportunityDropDown.java
+/Users/harneetkaur/eclipse-workspace/maventraining/src/test/java/com/jdbc/databasetesting/JDBCExample.java
 /Users/harneetkaur/eclipse-workspace/maventraining/src/test/java/testcases/salesforce/automation/TC_27.java
 /Users/harneetkaur/eclipse-workspace/maventraining/src/test/java/testcases/salesforce/automation/TC_21.java
 /Users/harneetkaur/eclipse-workspace/maventraining/src/test/java/com/training/test/HomeTabDropdownMethod.java
@@ -53,6 +57,7 @@
 /Users/harneetkaur/eclipse-workspace/maventraining/src/test/java/testcases/salesforce/automation/SalesforceLogin.java
 /Users/harneetkaur/eclipse-workspace/maventraining/src/test/java/testcases/salesforce/automation/CreateAccountTC10.java
 /Users/harneetkaur/eclipse-workspace/maventraining/src/test/java/testcases/salesforce/automation/TC_30.java
+/Users/harneetkaur/eclipse-workspace/maventraining/src/test/java/com/training/test/RunnableInterface.java
 /Users/harneetkaur/eclipse-workspace/maventraining/src/test/java/com/training/test/SeleniumSafariLaunch.java
 /Users/harneetkaur/eclipse-workspace/maventraining/src/test/java/testcases/salesforce/automation/TC_03.java
 /Users/harneetkaur/eclipse-workspace/maventraining/src/test/java/testcases/salesforce/automation/UserMenuDropDownTC07.java

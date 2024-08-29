@@ -1,5 +1,6 @@
 package testcases.salesforce.automation;
 
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -116,7 +117,7 @@ public class TC15OpportunityDropDown
 
 	public static void explicitwait(int time,WebElement element)
 	{
-		WebDriverWait wait= new WebDriverWait(driver,time);
+		WebDriverWait wait= new WebDriverWait(driver,Duration.ofMillis(time));
 		wait.until(ExpectedConditions.visibilityOf(element));
 		
 	}
