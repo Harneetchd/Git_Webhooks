@@ -3,6 +3,7 @@
 <suite name="Suite" parallel="classes" thread-count="5" >
   <test thread-count="5" name="Test">
     <classes>
+      
             <class name="com.docker.FirefoxTest"/>
             <class name="com.docker.ChromeTest"/>
             <class name="com.docker.MicrosoftEdgeTest"/>
